@@ -17,7 +17,7 @@ const { getTitle } = require('../../../common/utils');
 
 const logger = getLogger('/routes/views/index');
 
-const HOME_TITLE = 'Pspgbhu 的博客';
+const HOME_TITLE = 'Kira 的博客';
 
 router.use(routeArticle.routes());
 

@@ -4,10 +4,10 @@ import Widget from '../Widget';
 const WidgetSocial = () => (
   <Widget title='社交'>
     <div>
-      <a href="https://github.com/pspgbhu">GitHub: pspgbhu</a>
+      <a href="https://github.com/xieyankun">GitHub: xieyankun</a>
     </div>
     <div>
-      <a href="mailto:brotherchun001@gmail.com">Email: brotherchun001@gmail.com</a>
+      <a href="mailto:kiroader@gmail.com">Email: kiroader@gmail.com</a>
     </div>
   </Widget>
 );
