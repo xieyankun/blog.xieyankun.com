@@ -1,0 +1,31 @@
+.backtop {
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+
+    display: block;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+
+    border-radius: 4px;
+    background: #000;
+    transition: opacity .1s;
+    opacity: 0;
+
+    cursor: pointer;
+
+    &-shown {
+        opacity: 0.5;
+    }
+
+    .fa-arrow-up {
+        color: #fff;
+        font-size: 20px;
+        line-height: 1.45;
+    }
+
+    @media (max-width: 768px) {
+        display: none;
+    }
+}

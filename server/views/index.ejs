@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta http-equiv="Cache-Control" content="no-siteapp">
+    <meta name="renderer" content="webkit|ie-comp|ie-stand">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no,email=no,adress=no">
+    <meta name="browsermode" content="application">
+    <meta name="screen-orientation" content="portrait">
+
+    <link rel="icon" href="https://user-images.githubusercontent.com/22571015/48898888-fb11a280-ee88-11e8-8135-356e46ff34b4.png" type="image/x-icon">
+    <link rel="shortcut icon" href="https://user-images.githubusercontent.com/22571015/48898888-fb11a280-ee88-11e8-8135-356e46ff34b4.png" type="image/x-icon">
+
+    <!-- seo -->
+    <meta name="keywords" content="xieyankun,谢严坤,blog,博客,个人主页">
+    <meta name="description" content="Kira的博客">
+    <meta name="author" content="kira">
+    <meta name="contact" content="kiroader@gmail.com>">
+    <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.4/css/bootstrap.min.css?rev=3.3.4">
+    <link rel="stylesheet" href="http://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <% if(NODE_ENV === 'production') { %>
+      <%- include analytics/baidu %>
+      <%- include analytics/google %>
+      <link rel='stylesheet' href='/css/style.css' />
+    <% } %>
+
+    <title><%= title %></title>
+  </head>
+  <body>
+    <div id="app"><%- html %></div>
+    <script>
+      window.__INITIAL_STATE_ = <%- state %>;
+    </script>
+    <% if(NODE_ENV === 'production') { %>
+      <script src="/js/vendors.js"></script>
+    <% } %>
+    <script src="/js/app.js"></script>
+  </body>
+</html>
