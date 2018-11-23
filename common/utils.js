@@ -38,7 +38,7 @@ export const formatdate = (date, format, locale) => {
  */
 
 export const getTitle = (pathname, { posts }) => {
-  const HOME_TITLE = 'Pspgbhu 的博客';
+  const HOME_TITLE = 'Kira 的博客';
 
   /**
    * url: /blog.pspgbhu.me/artilce/demo/other
