@@ -1,13 +1,13 @@
 {
-  "name"   : "react-isomorphic",
+  "name"   : "kira-blog",
   "script" : "bin/www",
   "watch": false,
   "env": {
       "NODE_ENV": "production",
       "PORT": "3123"
   },
-  "out_file": "/export/Logs/react-isomorphic/out.log",
-  "error_file": "/export/Logs/react-isomorphic/err.log",
+  "out_file": "/Logs/kira-blog/out.log",
+  "error_file": "/Logs/kira-blog/err.log",
   "merge_logs": true,
   "log_date_format": "YYYY-MM-DD HH:mm Z",
   "max_memory_restart" : "384M"
