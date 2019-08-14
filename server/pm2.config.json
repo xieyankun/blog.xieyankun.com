@@ -4,10 +4,10 @@
   "watch": false,
   "env": {
       "NODE_ENV": "production",
-      "PORT": "3123"
+      "PORT": "3000"
   },
-  "out_file": "/Logs/kira-blog/out.log",
-  "error_file": "/Logs/kira-blog/err.log",
+  // "out_file": "/Logs/kira-blog/out.log",
+  // "error_file": "/Logs/kira-blog/err.log",
   "merge_logs": true,
   "log_date_format": "YYYY-MM-DD HH:mm Z",
   "max_memory_restart" : "384M"
