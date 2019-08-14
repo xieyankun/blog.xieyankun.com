@@ -66,13 +66,13 @@ class Post extends Component {
         <div className="post-footer">
           <div>
             作者：
-            <a href="http://blog.pspgbhu.me/">Pspgbhu</a>
+            <a href="http://blog.xieyankun.com/">Kira</a>
           </div>
           <div>
             发表日期：{formatdate(date, 'yyyy年mm月dd日')}
           </div>
           <div>
-            原文链接：<a href={`http://blog.pspgbhu.me/article/${slug}`}>{title}</a>
+            原文链接：<a href={`http://blog.xieyankun.com/article/${slug}`}>{title}</a>
           </div>
           <div>
             版权声明：署名-非商业性使用-禁止演绎 3.0 国际（

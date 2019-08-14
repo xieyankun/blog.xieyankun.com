@@ -21,7 +21,7 @@ class Comments extends Component {
       const { slug } = this.props.match.params;
       new Gitment({
         id: slug, // optional
-        owner: 'pspgbhu',
+        owner: 'xieyankun',
         repo: 'blog-articles',
         oauth: {
           client_id: 'f0109912955c9ab71e4d',

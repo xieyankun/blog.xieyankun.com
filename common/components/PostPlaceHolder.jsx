@@ -55,7 +55,7 @@ const PostPlaceHolder = () => (
       <div className="post-footer">
         <div>
           作者：
-          <a href="http://blog.pspgbhu.me/">Pspgbhu</a>
+          <a href="http://blog.xieyankun.com/">xieyankun</a>
         </div>
         <div>
           发表日期：

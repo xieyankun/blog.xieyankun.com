@@ -41,7 +41,7 @@ export const getTitle = (pathname, { posts }) => {
   const HOME_TITLE = 'Kira 的博客';
 
   /**
-   * url: /blog.pspgbhu.me/artilce/demo/other
+   * url: /blog.xieyankun.com/artilce/demo/other
    * rst[1] === 'artilce'
    * rst[2] === 'demo'
    * rst[3] === 'other'

@@ -75,10 +75,10 @@ class Post extends Component {
 
   downloadHL(cb) {
     const script = document.createElement('script');
-    script.src = '//static.pspgbhu.me/common/highlight.pack.js';
+    script.src = '//static.xieyankun.com/common/highlight.pack.js';
     const link = document.createElement('link');
     link.rel = 'stylesheet';
-    link.href = '//static.pspgbhu.me/common/googlecode/googlecode.min.css';
+    link.href = '//static.xieyankun.com/common/googlecode/googlecode.min.css';
 
     document.body.appendChild(link);
     document.body.appendChild(script);
