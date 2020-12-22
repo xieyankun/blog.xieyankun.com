@@ -59,7 +59,7 @@
     "log4js": "^2.6.0",
     "lowdb": "^1.0.0",
     "mini-css-extract-plugin": "^0.4.1",
-    "node-notifier": "^5.2.1",
+    "node-notifier": "^8.0.1",
     "opn": "^5.2.0",
     "postcss-flexbugs-fixes": "^3.3.0",
     "postcss-loader": "^2.1.1",
